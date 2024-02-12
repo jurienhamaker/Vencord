@@ -1,2 +1,16 @@
 dist/
 ExtensionCache/
+
+sessionData/
+
+Crashpad/
+
+vencordDist/
+
+state.json
+
+SingletonSocket
+
+SingletonLock
+
+SingletonCookie
