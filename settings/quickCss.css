@@ -1,0 +1,120 @@
+/* 
+[class^=menu-],[class^=submenu-] {
+  background: none;
+}
+[class^=submenu-] {
+  margin: 0 -8px;
+} */
+/* .theme-dark [class^=menu-]::after,.theme-dark [class^=submenu-]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-light [class^=menu-]::after,.theme-light [class^=submenu-]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background: rgba(245, 245, 245, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+[class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
+  background: rgba(245, 245, 245, 0.7);
+}
+[class^=backdrop-] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+  background: rgba(10, 10, 10, 0.7);
+}
+[class^=backdrop-] ~ [class*=layer-]>[class^=menu-]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.section-3FmfOT, .divider-1tWBgZ, .scroller-1jBQYo {
+  z-index: 2;
+} */
+
+/* textarea[placeholder*="Review @"] {
+    background-color: #00000040;
+}
+
+svg[class^="homeIcon"] path {
+    d: path('M 2 0 a 2 2 90 0 0 -2 2 v 12 a 2 2 90 0 0 2 2 h 2 l 0 4 l 4 -4 H 18 a 2 2 90 0 0 2 -2 V 2 a 2 2 90 0 0 -2 -2 z');
+}
+svg[class^="homeIcon"] {
+    margin-left: 8px;
+}
+
+.form-3gdLxP {
+  padding: 0px;
+}
+
+.channelTextArea-1VQBuV {
+  margin-bottom: 0px;
+} */
+
+/* Make the height consistent */
+/* .inner-NQg18Y {
+  padding-top: 4px;
+  min-height: 49px;
+} */
+
+/* Move the slowmode/typing indicator */
+/* .base-3bcbY3 {
+  top: -24px;
+  left: 0px;
+  width: fit-content;
+  padding-right: 9px;
+  border-radius: 0 8px 0 0;
+  background-color: var(--channeltextarea-background);
+}
+
+.scrollableContainer-15eg7h {
+  border-radius: 0px;
+  min-height: 53px;
+} */
+
+/*
+The below influences the settings button, optional but makes the line consistent
+across the entire client
+*/
+/* Move settings (3rd, hence :nth-child(3)) button */
+/* .container-YkUktl:last-of-type>.flex-2S1XBF.flex-3BkGQD :nth-child(3) {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+} */
+
+/* Decrease height of server list to make room for settings button */
+/* .guilds-2JjMmN {
+    margin-bottom: 53px;
+} */
+
+/* Make the background distinct */
+/* .container-1eFtFS {
+  background: #050505;
+} */
+/*hide the help button in the toolbar*/
+[class*="toolbar-"] > a[href*="support.discord.com"]{
+    display: none;
+}
+
+/* -- Remove the Christmas gifting button || Samu -- */
+[aria-label="Send a gift"] {
+    display: none !important;
+}
+
+:root {
+  /* You can change this blur to anything */
+  --glass-menu-bg-blur: 15px;
+}
